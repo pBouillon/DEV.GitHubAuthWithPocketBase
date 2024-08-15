@@ -32,6 +32,9 @@ dependencies:
   '@picocss/pico':
     specifier: ^2.0.6
     version: 2.0.6
+  pocketbase:
+    specifier: ^0.21.4
+    version: 0.21.4
   rxjs:
     specifier: ~7.8.0
     version: 7.8.1
@@ -5738,6 +5741,10 @@ packages:
     dependencies:
       find-up: 6.3.0
     dev: true
+
+  /pocketbase@0.21.4:
+    resolution: {integrity: sha512-WJHyaqdAt95JgZ1OCRD099+DST4IIG0M/jMrCckWYDSN/6ocp61qsz7m6h0xI0J2N79ScBljceEC0fFAaQrrAw==}
+    dev: false
 
   /postcss-loader@8.1.1(postcss@8.4.38)(typescript@5.5.4)(webpack@5.92.1):
     resolution: {integrity: sha512-0IeqyAsG6tYiDRCYKQJLAmgQr47DX6N7sFSWvQxt6AcupX8DIdmykuk/o/tx0Lze3ErGHJEp5OSRxrelC6+NdQ==}
